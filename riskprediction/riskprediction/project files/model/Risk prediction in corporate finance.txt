@@ -1,0 +1,17 @@
+Risk prediction in corporate finance using IBM Auto AI service
+Random Forest Classifier Accuracy (Random Forest): 0.7530120481927711
+
+HIGHEST: Decision Tree Classifier CHANGING HYPERPARAMETERS
+Accuracy: 0.7349397590361446
+
+For Regression models
+Linear Regression -62.704963995001314
+Logistic Regression : Accuracy (Logistic Regression): 0.6325301204819277
+RandomForestRegression Mean Squared Error: 0.1894254756329725
+
+For Classification models
+KNN Classifier (K Nearest Neighbour) : Accuracy:0.6987951807228916
+SVC (Support Vector Classifier)  0.6265060240963856
+
+
+

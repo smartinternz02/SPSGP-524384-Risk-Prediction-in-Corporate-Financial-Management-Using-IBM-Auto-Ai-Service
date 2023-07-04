@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu Bar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">ADS Financial Corp</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">User</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</head>
+<style>
+        .container {
+            max-width: 500px;
+            margin-top: 50px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .btn {
+            width: 100%;
+        }
+        .result {
+            margin-top: 30px;
+            text-align: center;
+            font-weight: bold;
+        }
+        body{
+    background-image: linear-gradient(to right, #e79c50, #df8434, #df6c1f);
+background-image: linear-gradient(to bottom left, #bfbfbf, #d9d9d9, #a6a6a6, #8c8c8c, #737373, #a6a6a6, #bfbfbf, #d9d9d9);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+    </style>
+<div class="body">
+<body>
+    <div class="container">
+        <h1>Welcome to ADS Financial Corporation</h1>
+        <div class="forms">
+            <form action="/user_value" method="POST">
+        <label for="user_name">user_name:</label>
+        <input type="text" id="user_name" name="user_name" required class="form-control"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required class="form-control"><br><br>
+
+         <input type="submit" value="Submit" class="btn btn-warning">
+            </form>
+            {% if user %}
+            <h2>Welcome: {{ user }}</h2>
+            {% endif %}
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</div>
+</html>

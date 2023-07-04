@@ -1,0 +1,15 @@
+.container {
+    margin-top: 100px;
+}
+
+.container h1 {
+    text-align: center;
+}
+.body {
+    background-image: linear-gradient(to right, #87CEEB, #8ACFF5, #8FD0FF, #92D2FF, #96D3FF, #99D4FF, #9CD5FF, #A0D7FF, #A3D8FF, #A6D9FF, #A9DAFF, #ADD9FF, #B1D8FF, #B5D7FF, #B9D6FF, #BDD5FF, #C1D3FF, #C5D2FF, #C9D0FF, #CDDFFF, #D1DCFF, #D5D9FF);
+    background-image: linear-gradient(to right, #87CEEB, #8ACFF5, #8FD0FF, #92D2FF, #96D3FF, #99D4FF, #9CD5FF, #A0D7FF, #A3D8FF, #A6D9FF, #A9DAFF, #ADD9FF, #B1D8FF, #B5D7FF, #B9D6FF, #BDD5FF, #C1D3FF, #C5D2FF, #C9D0FF, #CDDFFF, #D1DCFF, #D5D9FF), linear-gradient(to right, #808080, #959400, #AB8700, #B76A00, #C34D00, #CE3000, #DA1300, #E60000, #EB1700, #EF2800, #F33A00, #F84B00, #FD5C00, #FF6E00, #FF7F00, #FF8F00, #FFA000, #FFB100, #FFC300, #FFD400, #FFE500, #FFF700);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
